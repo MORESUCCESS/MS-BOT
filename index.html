@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="MORE SUCCESS">
+        <meta name="Description" content="Designing a chatbot AI">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MS AI</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="chatbox" id="chatbox">
+                <header class="header-nav">
+                    <img src="ms.jpg" alt="BotImage" class="bot-image">
+                    <div class="chat-content">
+                        <center><h1>MS CHATBOT</h1></center>
+                    </div>
+                    <span class="icon">
+                        <i class='fa fa-wifi wifi'></i>
+                        </span>
+                        <span><i class='fa fa-battery-full battery'></i></span>
+                </header>
+                <div class="chat-area" id="chat-area">
+                    <p class="chatb"><span class="AI-name">MS Chatbot AI:</span><br>Hello,<br> My name is MS Chatbot AI&#128123;, I am a Motivational speaker, let me know the way you feel and let me motivate you!</p>
+                </div>
+                <div class="input-fields">
+                    <input type="text" id="user-message" placeholder="New message..." autocomplete="off">
+                    <button class="btn" id="send" onclick="sendMessage()">Send <i class="fa fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
