@@ -8,7 +8,6 @@
         <title>MS AI</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./style.css">
-        <script src="script.js"></script>
     </head>
     <body>
         <div class="container">
@@ -24,13 +23,17 @@
                         <span><i class='fa fa-battery-full battery'></i></span>
                 </header>
                 <div class="chat-area" id="chat-area">
-                    <p class="chatb"><span class="AI-name">MS Chatbot AI:</span><br>Hello,<br> My name is MS Chatbot AI&#128123;, I am a Motivational speaker, let me know the way you feel and let me motivate you!</p>
+                    <p class="chatb"><span class="AI-name">MS Chatbot:</span><br>Hello,<br> My name is MS Chatbot AI&#128123;, How may I help you?</p>
                 </div>
                 <div class="input-fields">
+                    <form id="chat-form">
                     <input type="text" id="user-message" placeholder="New message..." autocomplete="off">
-                    <button class="btn" id="send" onclick="sendMessage()">Send <i class="fa fa-paper-plane"></i></button>
+                    <button class="btn" id="send" type="submit">Send <i class="fa fa-paper-plane"></i></button>
+                </form>
                 </div>
             </div>
         </div>
+        <script src="https:cdnjs.cloudflare.com/ajax/libs/axios/1.2.3/axios.min.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
